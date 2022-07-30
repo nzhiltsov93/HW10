@@ -6,5 +6,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
 
+    func changeBGColor() {
+        view.backgroundColor = .red
+    }
+
 }
 
